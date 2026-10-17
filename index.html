@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kelvin Ussein-Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===== Nav ===== -->
+    <header class="nav" id="nav">
+      <a href="#top" class="nav__mark">KU</a>
+      <nav class="nav__links">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button
+        class="nav__toggle"
+        id="navToggle"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+      >
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="top">
+      <p class="hero__eyebrow">Web Developer</p>
+      <h1 class="hero__title">
+        I build clean,<br />
+        considered interfaces<br />
+        for the web.
+      </h1>
+      <p class="hero__sub">
+        Hi, I'm <strong>Kelvin Ussein,</strong> I design and build websites and
+        web apps, from first sketch to shipped product. I am based in
+        <span id="location">Lilongwe, Malawi</span>.
+      </p>
+      <div class="hero__actions">
+        <a href="#work" class="btn btn--primary">See my work</a>
+        <a href="#contact" class="btn btn--ghost">Get in touch</a>
+      </div>
+    </section>
+
+    <!-- ===== Work ===== -->
+    <section class="work" id="work">
+      <div class="section__head">
+        <h2>Some of my work</h2>
+        <p>A few projects that I have worked on.</p>
+      </div>
+
+      <div class="project-list">
+        <!-- Project 1 -->
+        <article class="project" data-swatch="#3454D1">
+          <div class="project__meta">
+            <!-- <span class="project__year">2026</span> -->
+            <div class="project__tags">
+              <span>Next.js</span><span>Tailwind</span>
+            </div>
+          </div>
+          <div class="project__body">
+            <h3>Creative Graphic Designer Portfolio Website</h3>
+            <p>
+              This is a portfolio websiste for a graphic designer
+              <i>(which is also me by the way)</i>, showcasing some of my
+              creative design work.
+            </p>
+
+            <div class="project__links">
+              <a
+                href="https://dobsdesignsportfolio.netlify.app/"
+                target="_blank"
+                rel="noopener"
+                >Live site ↗</a
+              >
+              <!-- <a
+                href="https://dobsdesignsportfolio.netlify.app/"
+                target="_blank"
+                rel="noopener"
+                >Source ↗</a
+              > -->
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project" data-swatch="#C4562A">
+          <div class="project__meta">
+            <!-- <span class="project__year">2025</span> -->
+            <div class="project__tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+          <div class="project__body">
+            <h3>K and K Construction Website</h3>
+            <p>
+              This is a website for a construction company, showcasing their
+              services and projects.
+            </p>
+            <div class="project__links">
+              <a href="https://kandkconstruction.co.za/" target="_blank" rel="noopener">Live site ↗</a>
+              <!-- <a href="#" target="_blank" rel="noopener">Source ↗</a> -->
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project" data-swatch="#1F7A5C">
+          <div class="project__meta">
+            <!-- <span class="project__year">2025</span> -->
+            <div class="project__tags">
+              <span>JavaScript</span><span>Express</span><span>MongoDB</span>
+            </div>
+          </div>
+          <div class="project__body">
+            <h3>LoopMedia landing page Website</h3>
+            <p>
+              This is a landing page website for LoopMedia, a digital marketing agency.
+            </p>
+            <div class="project__links">
+              <a href="https://loopmedialandingpage.netlify.app/" target="_blank" rel="noopener">Live site ↗</a>
+              <!-- <a href="#" target="_blank" rel="noopener">Source ↗</a> -->
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="about" id="about">
+      <div class="section__head">
+        <h2>About</h2>
+      </div>
+      <div class="about__content">
+        <p>
+          Management Information Systems graduate with practical experience in
+          web development, information systems, database management and digital
+          solutions. Experienced in contributing to a Hospital Management
+          System, developing an Insurance Broker Management System, and building
+          responsive business websites. Proficient in modern web technologies
+          including React, Next.js, Svelte, JavaScript and Tailwind CSS, with
+          working knowledge of MySQL, Firebase, Git and website management.
+          Strong problem-solving, collaboration and adaptability skills, with a
+          keen interest in ICT operations, systems support and digital
+          transformation.
+        </p>
+        <div class="skills">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          <span>React</span><span>Node.js</span><span>Git</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="contact" id="contact">
+      <h2>Let's work together</h2>
+      <p>Have a project in mind, or just want to say hi? </p>
+      <a href="mailto:usseinkelvin20@gmail.com" class="btn btn--primary"
+        >Send me an email</a
+      >
+      <div class="contact__socials">
+        <p>Call or WhatsApp</p>
+        <p>+265 884 022 590</p>
+        <p>+265 989 546 166</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Kelvin Ussein.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
